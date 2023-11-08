@@ -3,7 +3,7 @@
 
 Applies particle swarm optimization to the set of interaction terms to include in an ordinary least squares regression (OLS). 
 
-For a discussion and example results, please see [http://www.neilalex.com/discovering-variable-interactions-using-particle-swarm](http://www.neilalex.com/discovering-variable-interactions-using-particle-swarm).
+For a discussion and example results, please see [https://neilalex.com/discovering-variable-interactions-using-particle-swarm-and-apache-spark/](https://neilalex.com/discovering-variable-interactions-using-particle-swarm-and-apache-spark/).
 
 ### Running / Getting Started
 The algorithm itself is in R/lmito.R. An example driver using data from the Panel Study of Income Dynamics (PSID) is in example.R. 
