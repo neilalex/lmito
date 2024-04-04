@@ -10,7 +10,6 @@ The algorithm itself is in R/lmito.R. An example driver using data from the Pane
 
 To run the core algorithm in serial mode using 4 particles and 4 iterations, just source example.R.
 
-To run the algorithm on Apache Spark (with a larger / potentially more-robust number of particles and iterations), follow instructions inside example.R to enable the correct parameters. This mode will require Apache Spark 2.0 or higher -- good instructions for setting up a Spark 2.0 installation on Amazon Web Services (along with SparkR) are at
-[https://edgarsdatalab.com/2016/08/25/setup-a-spark-2-0-cluster-r-on-aws/](https://edgarsdatalab.com/2016/08/25/setup-a-spark-2-0-cluster-r-on-aws/).
+To run the algorithm on Apache Spark (with a larger / potentially more-robust number of particles and iterations), follow instructions inside example.R to enable the correct parameters. This mode will require Apache Spark 2.0 or higher. [Here](https://www.r-bloggers.com/2015/11/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio-2/) and [here](https://www.youtube.com/watch?v=ISsnKm2mAx4) are some instructions for setting up a SparkR Amazon Web Services.
 
 Please contact neil@neilalex.com with questions or comments.
